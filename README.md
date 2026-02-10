@@ -42,7 +42,7 @@ Trường: Đại học Ngoại Thương
 
 <div align="center">
 
-<img src="https://media.giphy.com/media/l0HlNQ03J5JxX6lva/giphy.gif" width="200"/>
+<img width="307" height="302" alt="Screenshot 2026-02-10 221848" src="https://github.com/user-attachments/assets/f8fa75c2-e31c-4118-9d41-a862d1c50b85" />
 
 ### 🎧 My Top Tracks Playlist
 
