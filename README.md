@@ -18,30 +18,16 @@
 <img align="right" src="https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif" width="250"/>
 
 ```yaml
-name: Hoàng Linh Hương
-age: [20]
-location: Thái Nguyên, Việt Nam
-role: Sinh viên
+Họ tên: Hoàng Linh Hương
+Tuổi: 20
+Chuyên ngành: Kinh tế đối ngoại
+Trường: Đại học Ngoại Thương
 
-interests:
-  - Nghe nhạc 🎵
-  - Xem phim 🎬
-  - Đọc truyện 📖
-  - Chơi với mèo 🐱
-
-current_status: "Đang học tập và phát triển bản thân"
-motto: "Mỗi ngày học một điều mới"
 ```
 
 <br clear="right"/>
 
-### 📚
 
-- 🎓 Chuyên ngành: Kinh tế đối ngoại - Trường Đại học Ngoại Thương
-- 📖 Thích đọc sách trong thời gian rảnh
-- 🎧 Nghe nhạc mọi lúc mọi nơi
-
----
 
 ## 🎵 Đang Nghe Gì?
 
