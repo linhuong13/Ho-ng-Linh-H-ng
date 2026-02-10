@@ -1,11 +1,8 @@
 <div align="center">
 
-# Bonjour, je suis Linh Hương 🐾
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=F75C7E&center=true&vCenter=true&width=500&lines=Welcome+to+my+GitHub+profile+%F0%9F%91%8B" alt="Typing SVG" />
+<h1>  Bonjour, je suis Linh Hương 🐾 </h1>
+   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=F75C7E&center=true&vCenter=true&width=500&lines=Bienvenue+sur+mon+GitHub" alt="Typing SVG" />
 
-<br/>
-
-[![Meow](https://img.shields.io/badge/🐱_Meet_My_Cat-FF69B4?style=for-the-badge)](./MEOW.md)
 
 </div>
 
@@ -37,11 +34,20 @@
 
 <div align="center">
 
-## 🎧 My Spotify Vibes
+## 🎧 Bài hát mình yêu thích 
 
-🎵 Thể loại yêu thích: Chill, Pop, Indie, Lofi <br>
-🌙 Nghe nhạc khi: Học bài, thư giãn buổi tối<br>
-🎶 Playlist thường bật: Chill học bài, Nhạc nghe ban đêm<br>
+<p align="center">
+  <img src="https://images.genius.com/44bf16527df88472a061355dac992f72.1000x1000x1.jpg" width="150" />
+  <img src="https://tse4.mm.bing.net/th/id/OIP.W59bxzhCjpPTDOHow-whkAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" width="150" />
+  <img src="https://images.genius.com/34251c0dbb7894bcd41bb92057def816.1000x1000x1.png" width="150" />
+</p>
+
+<p align="center">
+  <b>Take a nap</b> – Airman &nbsp;&nbsp;|&nbsp;&nbsp;
+  <b>1000 ánh mắt</b> – Shiki &nbsp;&nbsp;|&nbsp;&nbsp;
+  <b>Mơ</b> – Vũ Cát Tường
+</p>
+
 
 
 <!-- Thay YOUR_SPOTIFY_PLAYLIST_ID bằng ID playlist của bạn -->
@@ -52,7 +58,7 @@
 <div align="center">
 
 ---
-### 🎧 My Top Tracks Playlist 
+### 🎧 Những bài hát mình hay nghe dạo gần đây
 
 [![Open Spotify](https://img.shields.io/badge/🎵_My_Top_Tracks-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/playlist/0THWr7jek5M8mGTn6RSI8P)
 
@@ -88,7 +94,7 @@
 
 ---
 
-## My contacts
+## Liên hệ với mình qua
 
 <div align="center">
 
@@ -99,14 +105,9 @@
 
 </div>
 
----
 
-<div align="center">
 
-### 🐾 Đừng quên ghé thăm em mèo của mình 🐾
 
-[![Meet My Cat](https://img.shields.io/badge/🐱_Click_Here_To_Meet_My_Cat!-FF69B4?style=for-the-badge)](./MEOW.md)
 
-<br/>
 
 
