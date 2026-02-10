@@ -2,7 +2,7 @@
 
 # Bonjour, je suis Linh Hương 🐾
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=F75C7E&center=true&vCenter=true&width=500&lines=Welcome+to+my+GitHub+profile+%F0%9F%91%8B" alt="Typing SVG" />
+<img width="2133" height="2360" alt="image" src="https://github.com/user-attachments/assets/9fbef578-427e-4237-bfcb-2e5caa9d78de" />
 
 
 <br/>
@@ -13,7 +13,7 @@
 
 ---
 
-## 🌸 Về Mình
+## 🌸 About me 🌸
 
 <img align="right" src="https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif" width="250"/>
 
@@ -22,7 +22,7 @@ Họ tên: Hoàng Linh Hương
 Tuổi: 20
 Chuyên ngành: Kinh tế đối ngoại
 Trường: Đại học Ngoại Thương
-
+Sở thích: Xem phim, nghe nhạc, đọc truyện ₍ᐢ. .ᐢ₎
 ```
 
 <br clear="right"/>
@@ -33,17 +33,23 @@ Trường: Đại học Ngoại Thương
 
 <div align="center">
 
-### 🎧 My Spotify Vibes
+## 🎧 My Spotify Vibes
+
+🎵 Thể loại yêu thích: Chill, Pop, Indie, Lofi
+🌙 Nghe nhạc khi: Học bài, thư giãn buổi tối
+🎤 Nghệ sĩ hay nghe: Vũ., Wren Evans, Airman
+🎶 Playlist thường bật: Chill học bài, Nhạc nghe ban đêm
+
 
 <!-- Thay YOUR_SPOTIFY_PLAYLIST_ID bằng ID playlist của bạn -->
 <!-- Ví dụ: https://open.spotify.com/playlist/37i9dQZF1DXcBWIGoYBM5M -> ID là 37i9dQZF1DXcBWIGoYBM5M -->
 
-## 🎵 Đang Nghe Gì?
+
 
 <div align="center">
 
 
-### 🎧 My Top Tracks Playlist
+### 🎧 My Top Tracks Playlist 
 
 [![Open Spotify](https://img.shields.io/badge/🎵_My_Top_Tracks-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/playlist/0THWr7jek5M8mGTn6RSI8P)
 
@@ -52,14 +58,13 @@ Trường: Đại học Ngoại Thương
 </div>
 
 
-## Kỹ năng mềm
+## 💼 Kỹ năng mềm 💼
 
-Giao tiếp và truyền đạt tốt
-Quản lý thời gian
-Tự học và chủ động
-Trách nhiệm và kỷ luật
+Giao tiếp và truyền đạt tốt<br>
+Quản lý thời gian<br>
+Tự học và chủ động<br>
+Trách nhiệm và kỷ luật<br>
 Làm việc độc lập và nhóm
-
 
 ---
 
@@ -96,7 +101,6 @@ Làm việc độc lập và nhóm
 
 <br/>
 
-![Profile Views](https://komarev.com/ghpvc/?username=[YOUR_USERNAME]&color=ff69b4&style=for-the-badge&label=Visitors)
 
 <br/>
 
