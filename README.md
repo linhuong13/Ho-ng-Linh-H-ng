@@ -42,22 +42,17 @@ Trường: Đại học Ngoại Thương
 
 <div align="center">
 
-<img width="307" height="302" alt="Screenshot 2026-02-10 221848" src="https://github.com/user-attachments/assets/f8fa75c2-e31c-4118-9d41-a862d1c50b85" />
 
 ### 🎧 My Top Tracks Playlist
 
 [![Open Spotify](https://img.shields.io/badge/🎵_My_Top_Tracks-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/playlist/0THWr7jek5M8mGTn6RSI8P)
-
-**Playlist created by the tutorial on developer.spotify.com**
 
 🎶 *Click để nghe playlist yêu thích của mình!*
 
 </div>
 
 
-## 💻 Kỹ Năng
-
-<div align="center">
+## Kỹ năng mềm
 
 Giao tiếp và truyền đạt tốt
 Quản lý thời gian
@@ -65,22 +60,6 @@ Tự học và chủ động
 Trách nhiệm và kỷ luật
 Làm việc độc lập và nhóm
 
-</div>
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-  
-<img height="170em" src="https://github-readme-stats.vercel.app/api?username=[YOUR_USERNAME]&show_icons=true&theme=rose_pine&include_all_commits=true&count_private=true&hide_border=true"/>
-<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=[YOUR_USERNAME]&layout=compact&theme=rose_pine&hide_border=true"/>
-
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=[YOUR_USERNAME]&theme=rose-pine&hide_border=true" alt="GitHub Streak"/>
-
-</div>
 
 ---
 
@@ -88,9 +67,7 @@ Làm việc độc lập và nhóm
 
 <div align="center">
 
-> *"Học tập không phải là sự chuẩn bị cho cuộc sống; học tập chính là cuộc sống."*
-
-> *"Đọc sách là cách để sống nhiều cuộc đời trong một đời."*
+> *"Học, học nữa, họ mãi"*
 
 <img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="300"/>
 
@@ -98,7 +75,7 @@ Làm việc độc lập và nhóm
 
 ---
 
-## 📫 Kết Nối
+## My contacts
 
 <div align="center">
 
