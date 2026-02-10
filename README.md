@@ -2,7 +2,8 @@
 
 # Bonjour, je suis Linh Hương 🐾
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=F75C7E&center=true&vCenter=true&width=500&lines=Sinh+vi%C3%AAn+%F0%9F%93%9A;Gia+s%C6%B0+%F0%9F%91%A8%E2%80%8D%F0%9F%8F%AB;Y%C3%AAu+%C3%A2m+nh%E1%BA%A1c+%F0%9F%8E%B5;Th%C3%ADch+xem+phim+%F0%9F%8E%AC;%C4%90am+m%C3%AA+%C4%91%E1%BB%8Dc+truy%E1%BB%87n+%F0%9F%93%96" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=F75C7E&center=true&vCenter=true&width=500&lines=Welcome+to+my+GitHub+profile+%F0%9F%91%8B" alt="Typing SVG" />
+
 
 <br/>
 
