@@ -1,8 +1,8 @@
 <div align="center">
 
 # Bonjour, je suis Linh Hương 🐾
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=F75C7E&center=true&vCenter=true&width=500&lines=Welcome+to+my+GitHub+profile+%F0%9F%91%8B" alt="Typing SVG" />
 
-<img width="2133" height="2360" alt="image" src="https://github.com/user-attachments/assets/9fbef578-427e-4237-bfcb-2e5caa9d78de" />
 
 
 <br/>
@@ -13,32 +13,43 @@
 
 ---
 
-## 🌸 About me 🌸
+<h2 align="center">🌸 About me 🌸</h2>
 
-<img align="right" src="https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif" width="250"/>
+<img align="right" width="200" height="300" alt="image" src="https://github.com/user-attachments/assets/7200fe87-f85b-4e23-bff2-58e8fa1859c6" />
+
 
 ```yaml
-Họ tên: Hoàng Linh Hương
-Tuổi: 20
-Chuyên ngành: Kinh tế đối ngoại
-Trường: Đại học Ngoại Thương
-Sở thích: Xem phim, nghe nhạc, đọc truyện ₍ᐢ. .ᐢ₎
+<p>
+<span style="color:#ff69b4"><b>Họ tên:</b></span> <span style="color:#ff69b4">Hoàng Linh Hương</span><br>
+<span style="color:#ff69b4"><b>Tuổi:</b></span> <span style="color:#ff69b4">20</span><br>
+<span style="color:#ff69b4"><b>Chuyên ngành:</b></span> <span style="color:#ff69b4">Kinh tế đối ngoại</span><br>
+<span style="color:#ff69b4"><b>Trường:</b></span> <span style="color:#ff69b4">Đại học Ngoại Thương</span><br>
+<span style="color:#ff69b4"><b>Sở thích:</b></span> <span style="color:#ff69b4">Xem phim, nghe nhạc, đọc truyện ₍ᐢ. .ᐢ₎</span>
+</p>
+
+
+<h2 style="color:#ff69b4">🌱 Hiện tại mình đang:</h2>
+
+<ul>
+  <li>📚 Học tập và trau dồi kiến thức chuyên ngành</li>
+  <li>👩‍🏫 Làm gia sư và rèn luyện kỹ năng truyền đạt</li>
+  <li>💻 Tự xây dựng GitHub như một cuốn nhật ký học tập</li>
+</ul>
+
 ```
 
 <br clear="right"/>
 
+---
 
-
-## 🎵 Đang Nghe Gì?
 
 <div align="center">
 
 ## 🎧 My Spotify Vibes
 
-🎵 Thể loại yêu thích: Chill, Pop, Indie, Lofi
-🌙 Nghe nhạc khi: Học bài, thư giãn buổi tối
-🎤 Nghệ sĩ hay nghe: Vũ., Wren Evans, Airman
-🎶 Playlist thường bật: Chill học bài, Nhạc nghe ban đêm
+🎵 Thể loại yêu thích: Chill, Pop, Indie, Lofi <br>
+🌙 Nghe nhạc khi: Học bài, thư giãn buổi tối<br>
+🎶 Playlist thường bật: Chill học bài, Nhạc nghe ban đêm<br>
 
 
 <!-- Thay YOUR_SPOTIFY_PLAYLIST_ID bằng ID playlist của bạn -->
@@ -48,7 +59,7 @@ Sở thích: Xem phim, nghe nhạc, đọc truyện ₍ᐢ. .ᐢ₎
 
 <div align="center">
 
-
+---
 ### 🎧 My Top Tracks Playlist 
 
 [![Open Spotify](https://img.shields.io/badge/🎵_My_Top_Tracks-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/playlist/0THWr7jek5M8mGTn6RSI8P)
@@ -58,24 +69,29 @@ Sở thích: Xem phim, nghe nhạc, đọc truyện ₍ᐢ. .ᐢ₎
 </div>
 
 
-## 💼 Kỹ năng mềm 💼
+  ---
+## 💼 Kỹ năng mềm
 
-Giao tiếp và truyền đạt tốt<br>
-Quản lý thời gian<br>
-Tự học và chủ động<br>
-Trách nhiệm và kỷ luật<br>
-Làm việc độc lập và nhóm
+<pre align="center">
+✔ Giao tiếp và truyền đạt tốt      ✔ Trách nhiệm và kỷ luật
+✔ Quản lý thời gian                 ✔ Làm việc độc lập và nhóm
+✔ Tự học và chủ động
+</pre>
+
+
+
+
+
 
 ---
-
-## 💭 Câu Nói Yêu Thích
-
 <div align="center">
+  <h2>💭 Câu Nói Yêu Thích</h2>
 
-> *"Học, học nữa, họ mãi"*
+  <blockquote>
+    <i>"Học, học nữa, học mãi"</i>
+  </blockquote>
 
-<img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="300"/>
-
+  <img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="300"/>
 </div>
 
 ---
