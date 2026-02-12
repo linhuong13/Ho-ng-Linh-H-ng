@@ -108,6 +108,69 @@ h1, h2 { color: #333; }
     box-shadow: 0 0 20px rgba(255, 182, 193, 0.9);
     background: #ffb6d5;
 }
+
+/* ===== HOẠT ĐỘNG 2025 ===== */
+.accordion {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+details {
+    background: rgba(255, 240, 245, 0.95);
+    border-radius: 16px;
+    margin-bottom: 16px;
+    padding: 15px 20px;
+    box-shadow: 0 6px 18px rgba(255, 182, 193, 0.35);
+    transition: all 0.3s ease;
+}
+
+/* khi mở */
+details[open] {
+    background: rgba(255, 225, 235, 0.95);
+    box-shadow: 0 10px 26px rgba(255, 150, 180, 0.45);
+}
+
+/* summary */
+summary {
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 18px;
+    list-style: none;
+}
+
+/* bỏ mũi tên mặc định */
+summary::-webkit-details-marker {
+    display: none;
+}
+
+/* icon mũi tên xinh */
+summary::after {
+    content: "🌸";
+    float: right;
+    transition: transform 0.3s ease;
+}
+
+/* xoay icon khi mở */
+details[open] summary::after {
+    transform: rotate(180deg);
+}
+
+/* nội dung bên trong */
+details p, details img {
+    animation: fadeIn 0.4s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-5px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 </style>
 </head>
 
@@ -182,6 +245,77 @@ h1, h2 { color: #333; }
 </div>
 
 <hr>
+<!-- Activities -->
+<hr>
+
+<h2 class="center">📅 Mình đã làm gì trong năm 2025</h2>
+
+<div class="accordion">
+
+<details>
+  <summary>🇫🇷 Tham gia CLB Tiếng Pháp</summary>
+
+  <details class="sub">
+    <summary>📖 Sinh hoạt CLB hằng tuần</summary>
+    <p>Luyện nói, thảo luận và làm việc nhóm bằng tiếng Pháp.</p>
+    <img src="LINK_ẢNH_CLB_1">
+  </details>
+
+  <details class="sub">
+    <summary>🎭 Hoạt động văn hóa Pháp</summary>
+    <p>Tham gia sự kiện, tìm hiểu ẩm thực và văn hóa Pháp.</p>
+    <img src="LINK_ẢNH_CLB_2">
+  </details>
+
+</details>
+
+<details>
+  <summary>🤍 Hoạt động tình nguyện</summary>
+
+  <details class="sub">
+    <summary>🧹 Hỗ trợ cộng đồng</summary>
+    <p>Dọn dẹp, hỗ trợ tổ chức các hoạt động xã hội.</p>
+    <img src="LINK_ẢNH_TNV_1">
+  </details>
+
+  <details class="sub">
+    <summary>🎁 Quyên góp & hỗ trợ</summary>
+    <p>Tham gia quyên góp, giúp đỡ người khó khăn.</p>
+    <img src="LINK_ẢNH_TNV_2">
+  </details>
+
+</details>
+
+<details>
+  <summary>🩸 Hiến máu nhân đạo</summary>
+
+  <details class="sub">
+    <summary>🏥 Ngày hiến máu</summary>
+    <p>Tham gia hiến máu vì cộng đồng.</p>
+    <img src="LINK_ẢNH_HIẾN_MÁU">
+  </details>
+
+</details>
+
+<details>
+  <summary>📚 Học tập & phát triển bản thân</summary>
+
+  <details class="sub">
+    <summary>✏️ Học chuyên ngành</summary>
+    <p>Trau dồi kiến thức kinh tế đối ngoại.</p>
+    <img src="LINK_ẢNH_HỌC_1">
+  </details>
+
+  <details class="sub">
+    <summary>🌱 Kỹ năng & ngoại ngữ</summary>
+    <p>Rèn luyện kỹ năng mềm và tiếng Pháp.</p>
+    <img src="LINK_ẢNH_HỌC_2">
+  </details>
+
+</details>
+
+</div>
+
    
     <!-- QUOTE --> <div class="center"> <h2>💭 Câu Nói Yêu Thích</h2> <p class="quote">"Học, học nữa, học mãi"</p> <img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="300"> </div>
     <hr>
