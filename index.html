@@ -21,8 +21,63 @@ body {
     width: 100%;
     height: 100%;
     pointer-events: none;
-    z-index: 0;
+    z-index: 1;
 }
+<script>
+const canvas = document.getElementById("snow");
+const ctx = canvas.getContext("2d");
+
+let w, h;
+let petals = [];
+
+function resize() {
+  w = canvas.width = window.innerWidth;
+  h = canvas.height = window.innerHeight;
+}
+window.addEventListener("resize", resize);
+resize();
+
+for (let i = 0; i < 45; i++) {
+  petals.push({
+    x: Math.random() * w,
+    y: Math.random() * h,
+    size: Math.random() * 6 + 6,
+    speed: Math.random() * 1 + 0.5,
+    sway: Math.random() * 0.6 + 0.3,
+    angle: Math.random() * Math.PI * 2,
+    rotate: Math.random() * 0.02 - 0.01
+  });
+}
+
+function drawPetal(p) {
+  ctx.save();
+  ctx.translate(p.x, p.y);
+  ctx.rotate(p.angle);
+  ctx.fillStyle = "rgba(255, 182, 193, 0.85)";
+  ctx.beginPath();
+  ctx.ellipse(0, 0, p.size * 0.6, p.size, 0, 0, Math.PI * 2);
+  ctx.fill();
+  ctx.restore();
+}
+
+function animate() {
+  ctx.clearRect(0, 0, w, h);
+  petals.forEach(p => {
+    drawPetal(p);
+    p.y += p.speed;
+    p.x += Math.sin(p.y * 0.01) * p.sway;
+    p.angle += p.rotate;
+
+    if (p.y > h) {
+      p.y = -10;
+      p.x = Math.random() * w;
+    }
+  });
+  requestAnimationFrame(animate);
+}
+animate();
+</script>
+
 
 .container {
     position: relative;
