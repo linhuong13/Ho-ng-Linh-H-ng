@@ -5,18 +5,20 @@
 <title>Hoàng Linh Hương</title>
 
 <style>
-/* ===== BODY ===== */
 body {
+    font-family: "Segoe UI", Arial, sans-serif;
     margin: 0;
     padding: 0;
-    font-family: "Segoe UI", Arial, sans-serif;
     line-height: 1.6;
     background: linear-gradient(135deg, #fde2e4, #fadadd, #fde2e4);
     overflow-x: hidden;
 }
+    
+<audio id="bg-music" loop>
+  <source src=""C:\Users\fpt47\Downloads\Spring Day.mp3"" type="audio/mpeg">
+</audio>
 
-/* ===== CANVAS HOA ANH ĐÀO ===== */
-#sakura {
+#snow {
     position: fixed;
     top: 0;
     left: 0;
@@ -26,71 +28,23 @@ body {
     z-index: 0;
 }
 
-/* ===== KHUNG NỘI DUNG ===== */
 .container {
     position: relative;
     z-index: 1;
     max-width: 900px;
     margin: 40px auto;
+    /* 🌸 NỀN HỒNG NHẠT */
+    background: rgba(255, 245, 247, 0.92);
+
     padding: 40px;
-    background: rgba(255, 245, 247, 0.95);
-    border-radius: 18px;
+    border-radius: 16px;
+
+    /* ✨ MỀM – NỔI */
     box-shadow: 0 8px 25px rgba(255, 182, 193, 0.35);
+
     backdrop-filter: blur(4px);
 }
 
-/* ===== CHUNG ===== */
-.center { text-align: center; }
-
-hr {
-    border: none;
-    border-top: 1px solid #e6cfd4;
-    margin: 40px 0;
-}
-
-h1, h2 {
-    color: #333;
-}
-
-/* ===== ABOUT ===== */
-.about img {
-    float: right;
-    margin-left: 20px;
-    border-radius: 12px;
-}
-
-.clear { clear: both; }
-
-/* ===== MUSIC ===== */
-.song-images img {
-    width: 150px;
-    margin: 6px;
-    border-radius: 12px;
-}
-
-/* ===== SKILLS ===== */
-.skills {
-    text-align: center;
-    font-family: monospace;
-    white-space: pre-line;
-}
-
-/* ===== QUOTE ===== */
-.quote {
-    font-style: italic;
-    font-size: 20px;
-}
-
-/* ===== CONTACT ===== */
-.contact a {
-    display: inline-block;
-    margin: 8px;
-    text-decoration: none;
-    font-weight: bold;
-    color: #555;
-}
-
-/* ===== RESPONSIVE ===== */
 @media (max-width: 768px) {
     .about img {
         float: none;
@@ -98,30 +52,67 @@ h1, h2 {
         margin: 0 auto 20px;
     }
 }
+.center {
+    text-align: center;
+}
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 40px 0;
+}
+h1, h2 {
+    color: #333;
+}
+.about img {
+    float: right;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.song-images img {
+    width: 150px;
+    margin: 5px;
+    border-radius: 10px;
+}
+.skills {
+    text-align: center;
+    font-family: monospace;
+    white-space: pre-line;
+}
+.quote {
+    font-style: italic;
+    font-size: 20px;
+}
+.contact a {
+    display: inline-block;
+    margin: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #444;
+}
+.clear {
+    clear: both;
+}
 </style>
 </head>
 
 <body>
 
-<!-- 🌸 HOA ANH ĐÀO -->
-<canvas id="sakura"></canvas>
-
 <div class="container">
+
 
 <!-- HEADER -->
 <div class="center">
-    <h1>Bonjour, je suis Linh Hương 🌸</h1>
+    <h1>Bonjour, je suis Linh Hương 🐾</h1>
     <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=F75C7E&center=true&vCenter=true&width=500&lines=Bienvenue+sur+mon+site+personnel" alt="Typing SVG">
 </div>
 
 <hr>
 
 <!-- ABOUT -->
-<h2 class="center">🌷 About me 🌷</h2>
+<h2 class="center">🌸 About me 🌸</h2>
 
 <div class="about">
-    <img src="https://github.com/user-attachments/assets/7200fe87-f85b-4e23-bff2-58e8fa1859c6"
-         width="300" height="350" alt="Linh Hương">
+    <img src="https://github.com/user-attachments/assets/7200fe87-f85b-4e23-bff2-58e8fa1859c6" width="300" height="350" alt="Linh Hương">
 
     <p><b>Họ tên:</b> Hoàng Linh Hương</p>
     <p><b>Tuổi:</b> 20</p>
@@ -133,7 +124,7 @@ h1, h2 {
     <ul>
         <li>Học tập và trau dồi kiến thức chuyên ngành</li>
         <li>Làm gia sư và rèn luyện kỹ năng truyền đạt</li>
-        <li>Xây dựng GitHub như một cuốn nhật ký học tập</li>
+        <li>Tự xây dựng GitHub như một cuốn nhật ký học tập</li>
     </ul>
 </div>
 
@@ -156,6 +147,14 @@ h1, h2 {
         <b>1000 ánh mắt</b> – Shiki &nbsp;|&nbsp;
         <b>Mơ</b> – Vũ Cát Tường
     </p>
+
+    <h3>🎧 Những bài hát mình hay nghe dạo gần đây</h3>
+
+    <p>
+        <a href="https://open.spotify.com/playlist/0THWr7jek5M8mGTn6RSI8P" target="_blank">
+            👉 Mở playlist Spotify
+        </a>
+    </p>
 </div>
 
 <hr>
@@ -164,8 +163,8 @@ h1, h2 {
 <h2 class="center">💼 Kỹ năng mềm</h2>
 
 <div class="skills">
-✔ Giao tiếp tốt        ✔ Trách nhiệm  
-✔ Quản lý thời gian    ✔ Làm việc nhóm  
+✔ Giao tiếp và truyền đạt tốt      ✔ Trách nhiệm và kỷ luật
+✔ Quản lý thời gian               ✔ Làm việc độc lập và nhóm
 ✔ Tự học và chủ động
 </div>
 
@@ -173,15 +172,15 @@ h1, h2 {
 
 <!-- QUOTE -->
 <div class="center">
-    <h2>💭 Câu nói yêu thích</h2>
-    <p class="quote">“Học, học nữa, học mãi”</p>
-    <img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="280">
+    <h2>💭 Câu Nói Yêu Thích</h2>
+    <p class="quote">"Học, học nữa, học mãi"</p>
+    <img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="300">
 </div>
 
 <hr>
 
 <!-- CONTACT -->
-<h2 class="center">📬 Liên hệ</h2>
+<h2 class="center">📬 Liên hệ với mình</h2>
 
 <div class="center contact">
     <a href="mailto:linhuong06@gmail.com">📧 Email</a>
@@ -191,63 +190,60 @@ h1, h2 {
 </div>
 
 </div>
+<canvas id="snow"></canvas>
 
-<!-- 🌸 SCRIPT HOA ANH ĐÀO -->
 <script>
-const canvas = document.getElementById("sakura");
+const canvas = document.getElementById("snow");
 const ctx = canvas.getContext("2d");
 
-let petals = [];
-const petalCount = 35;
+let width, height;
+let snowflakes = [];
 
 function resize() {
-    canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
+  width = canvas.width = window.innerWidth;
+  height = canvas.height = window.innerHeight;
 }
-resize();
 window.addEventListener("resize", resize);
+resize();
 
-function createPetal() {
-    return {
-        x: Math.random() * canvas.width,
-        y: Math.random() * canvas.height,
-        r: Math.random() * 4 + 2,
-        speedY: Math.random() * 0.8 + 0.4,
-        speedX: Math.random() * 0.6 - 0.3,
-        opacity: Math.random() * 0.5 + 0.4,
-        angle: Math.random() * Math.PI
-    };
+function createSnowflakes() {
+  snowflakes = [];
+  for (let i = 0; i < 90; i++) {
+    snowflakes.push({
+      x: Math.random() * width,
+      y: Math.random() * height,
+      r: Math.random() * 3 + 1,
+      d: Math.random() * 0.8 + 0.4
+    });
+  }
+}
+createSnowflakes();
+
+function drawSnowflakes() {
+  ctx.clearRect(0, 0, width, height);
+  ctx.fillStyle = "rgba(255, 255, 255, 0.85)";
+  ctx.beginPath();
+  for (let f of snowflakes) {
+    ctx.moveTo(f.x, f.y);
+    ctx.arc(f.x, f.y, f.r, 0, Math.PI * 2);
+  }
+  ctx.fill();
+  moveSnowflakes();
 }
 
-for (let i = 0; i < petalCount; i++) {
-    petals.push(createPetal());
-}
-
-function drawPetal(p) {
-    ctx.save();
-    ctx.translate(p.x, p.y);
-    ctx.rotate(p.angle);
-    ctx.beginPath();
-    ctx.fillStyle = `rgba(255,182,193,${p.opacity})`;
-    ctx.ellipse(0, 0, p.r, p.r * 0.6, 0, 0, Math.PI * 2);
-    ctx.fill();
-    ctx.restore();
+function moveSnowflakes() {
+  for (let f of snowflakes) {
+    f.y += f.d;
+    if (f.y > height) {
+      f.y = 0;
+      f.x = Math.random() * width;
+    }
+  }
 }
 
 function animate() {
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
-    petals.forEach(p => {
-        p.y += p.speedY;
-        p.x += p.speedX;
-        p.angle += 0.002;
-
-        if (p.y > canvas.height) {
-            p.y = -10;
-            p.x = Math.random() * canvas.width;
-        }
-        drawPetal(p);
-    });
-    requestAnimationFrame(animate);
+  drawSnowflakes();
+  requestAnimationFrame(animate);
 }
 animate();
 </script>
