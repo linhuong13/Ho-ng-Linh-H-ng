@@ -75,17 +75,64 @@ body {
     overflow-x: hidden;
 }
 
-/* Canvas tuyết */
-#snow {
-    position: fixed;
-    top: 0;
-    left: 0;
-    pointer-events: none;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
+<canvas id="snow"></canvas>
+
+<script>
+const canvas = document.getElementById("snow");
+const ctx = canvas.getContext("2d");
+
+let width, height;
+let snowflakes = [];
+
+function resize() {
+  width = canvas.width = window.innerWidth;
+  height = canvas.height = window.innerHeight;
 }
-</style>
+window.addEventListener("resize", resize);
+resize();
+
+function createSnowflakes() {
+  snowflakes = [];
+  for (let i = 0; i < 80; i++) {
+    snowflakes.push({
+      x: Math.random() * width,
+      y: Math.random() * height,
+      r: Math.random() * 3 + 1,
+      d: Math.random() * 1 + 0.5
+    });
+  }
+}
+createSnowflakes();
+
+function drawSnowflakes() {
+  ctx.clearRect(0, 0, width, height);
+  ctx.fillStyle = "rgba(255, 255, 255, 0.8)";
+  ctx.beginPath();
+  for (let f of snowflakes) {
+    ctx.moveTo(f.x, f.y);
+    ctx.arc(f.x, f.y, f.r, 0, Math.PI * 2);
+  }
+  ctx.fill();
+  moveSnowflakes();
+}
+
+function moveSnowflakes() {
+  for (let f of snowflakes) {
+    f.y += f.d;
+    if (f.y > height) {
+      f.y = 0;
+      f.x = Math.random() * width;
+    }
+  }
+}
+
+function update() {
+  drawSnowflakes();
+  requestAnimationFrame(update);
+}
+update();
+</script>
+
 
 
 <!-- HEADER -->
