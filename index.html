@@ -154,6 +154,15 @@ summary::after {
 details[open] summary::after {
     transform: rotate(180deg);
 }
+    
+    /* ẢNH HOẠT ĐỘNG – FIX KHÔNG BỊ TO */
+summary img {
+    width: 90px;          /* kích thước vừa xinh */
+    height: 90px;
+    object-fit: cover;    /* không méo ảnh */
+    border-radius: 14px;  /* bo góc cute */
+    flex-shrink: 0;       /* không bị ép nhỏ */
+}
 
 /* nội dung bên trong */
 details p, details img {
