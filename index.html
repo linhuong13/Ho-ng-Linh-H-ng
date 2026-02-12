@@ -14,7 +14,8 @@ body {
     overflow-x: hidden;
 }
 
-#snow {
+<canvas id="sakura"></canvas>
+#sakura {
     position: fixed;
     top: 0;
     left: 0;
@@ -243,6 +244,58 @@ function animate() {
 }
 animate();
 </script>
+<script>
+const canvas = document.getElementById("sakura");
+const ctx = canvas.getContext("2d");
 
+let petals = [];
+const petalCount = 30;
+
+function resize() {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+}
+resize();
+window.addEventListener("resize", resize);
+
+function createPetal() {
+    return {
+        x: Math.random() * canvas.width,
+        y: Math.random() * canvas.height,
+        r: Math.random() * 4 + 2,
+        speedY: Math.random() * 1 + 0.5,
+        speedX: Math.random() * 0.6 - 0.3,
+        opacity: Math.random() * 0.6 + 0.4
+    };
+}
+
+for (let i = 0; i < petalCount; i++) {
+    petals.push(createPetal());
+}
+
+function drawPetal(p) {
+    ctx.beginPath();
+    ctx.fillStyle = `rgba(255,182,193,${p.opacity})`;
+    ctx.ellipse(p.x, p.y, p.r, p.r * 0.6, Math.PI / 4, 0, Math.PI * 2);
+    ctx.fill();
+}
+
+function animate() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    petals.forEach(p => {
+        p.y += p.speedY;
+        p.x += p.speedX;
+
+        if (p.y > canvas.height) {
+            p.y = -10;
+            p.x = Math.random() * canvas.width;
+        }
+        drawPetal(p);
+    });
+    requestAnimationFrame(animate);
+}
+
+animate();
+</script>
 </body>
 </html>
