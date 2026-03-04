@@ -218,6 +218,28 @@ h2 {
 .navbar a:hover {
     color: #ff69b4;
 }
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 18px;
+    margin-top: 25px;
+}
+
+.skill-card {
+    background: linear-gradient(135deg, #ffe0ec, #ffd6e8);
+    padding: 18px;
+    border-radius: 16px;
+    font-weight: 600;
+    text-align: center;
+    box-shadow: 0 8px 18px rgba(255, 182, 193, 0.3);
+    transition: 0.3s ease;
+}
+
+.skill-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 24px rgba(255, 150, 180, 0.45);
+}
 </style>
 </head>
     <body>
@@ -286,17 +308,19 @@ h2 {
             <img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Spotify_icon.svg">
         </a>
     </div>
-</div>
-
+</section>
+<!-- SKILLS -->
 <hr>
 
-<!-- SKILLS -->
 <h2 id="skills" class="center">💼 Kỹ năng mềm</h2>
-    
-<div class="skills">
-✔ Giao tiếp và truyền đạt tốt      ✔ Trách nhiệm và kỷ luật
-✔ Quản lý thời gian                ✔ Làm việc độc lập và nhóm
-✔ Tự học và chủ động
+
+<div class="skills-grid">
+    <div class="skill-card">💬 Giao tiếp & truyền đạt</div>
+    <div class="skill-card">⏰ Quản lý thời gian</div>
+    <div class="skill-card">🤝 Làm việc nhóm</div>
+    <div class="skill-card">🎯 Trách nhiệm & kỷ luật</div>
+    <div class="skill-card">🌱 Tự học & chủ động</div>
+    <div class="skill-card">🧠 Làm việc độc lập</div>
 </div>
 
 
