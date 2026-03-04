@@ -188,13 +188,47 @@ details p, details img {
         transform: translateY(0);
     }
 }
+    html {
+    scroll-behavior: smooth;
+}
+    
+.navbar {
+    background: rgba(255, 182, 193, 0.9);
+    backdrop-filter: blur(6px);
+    padding: 18px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
 
+.navbar a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 25px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    color: #ff69b4;
+}
 </style>
 </head>
     <body>
 
 <div class="container">
 
+   <nav class="navbar">
+    <a href="#about">About</a>
+    <a href="#music">Music</a>
+    <a href="#skills">Skills</a>
+    <a href="#activities">Activities</a>
+    <a href="#quote">Quote</a>
+    <a href="#contact">Contact</a>
+</nav> 
+    
 <!-- HEADER -->
 <div class="center">
     <h1>Bonjour, je suis Linh Hương 🐾</h1>
@@ -204,7 +238,7 @@ details p, details img {
 <hr>
 
 <!-- ABOUT -->
-<h2 class="center">🌸 Một số điều về mình 🌸</h2>
+<h2 id="about" class="center">🌸 Một số điều về mình 🌸</h2>
 
 <div class="about">
     <img src="https://github.com/user-attachments/assets/7200fe87-f85b-4e23-bff2-58e8fa1859c6" width="300" height="350">
@@ -226,6 +260,7 @@ details p, details img {
 
 <!-- MUSIC -->
 <div class="center">
+   <div id="music" class="center">
     <h2>🎧 Bài hát mình yêu thích</h2>
 
     <div class="song-images">
@@ -253,8 +288,8 @@ details p, details img {
 <hr>
 
 <!-- SKILLS -->
-<h2 class="center">💼 Kỹ năng mềm</h2>
-
+<h2 id="skills" class="center">💼 Kỹ năng mềm</h2>
+    
 <div class="skills">
 ✔ Giao tiếp và truyền đạt tốt      ✔ Trách nhiệm và kỷ luật
 ✔ Quản lý thời gian                ✔ Làm việc độc lập và nhóm
@@ -265,7 +300,7 @@ details p, details img {
 <!-- Activities -->
 <hr>
 
-<h2 class="center"> Mình đã làm gì trong năm 2025</h2>
+<h2 id="activities" class="center"> Mình đã làm gì trong năm 2025</h2>
 
 <div class="accordion">
 
@@ -322,10 +357,10 @@ details p, details img {
 
 
    
-    <!-- QUOTE --> <div class="center"> <h2>💭 Câu Nói Yêu Thích</h2> <p class="quote">"Học, học nữa, học mãi"</p> <img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="300"> </div>
+    <!-- QUOTE --> <div class="center"><h2 id="quote">💭 Câu Nói Yêu Thích</h2> <p class="quote">"Học, học nữa, học mãi"</p> <img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="300"> </div>
     <hr>
 <!-- CONTACT -->
-<h2 class="center">📬 Liên hệ với mình</h2>
+<h2 id="contact" class="center">📬 Liên hệ với mình</h2>
 <div class="center contact">
     <a href="mailto:linhuong06@gmail.com">📧 Email</a>
     <a href="https://www.facebook.com/linh.huong.916979/" target="_blank">Facebook</a>
